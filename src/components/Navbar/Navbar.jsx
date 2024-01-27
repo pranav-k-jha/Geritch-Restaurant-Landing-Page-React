@@ -14,19 +14,19 @@ const Navbar = () => {
       </div>
       <ul className="app__navbar-links">
         <li className="p__opensans">
-          <a href="#home"></a>Home
+          <a href="#home">Home</a>
         </li>
         <li className="p__opensans">
-          <a href="#about"></a>About
+          <a href="#about">About</a>
         </li>
         <li className="p__opensans">
-          <a href="#menu"></a>Menu
+          <a href="#menu">Menu</a>
         </li>
         <li className="p__opensans">
-          <a href="#awards"></a>Awards
+          <a href="#awards">Awards</a>
         </li>
         <li className="p__opensans">
-          <a href="#contact"></a>Contact
+          <a href="#contact">Contact</a>
         </li>
       </ul>
       <div className="app__navbar-login">
@@ -54,19 +54,29 @@ const Navbar = () => {
             />
             <ul className="app__navbar-smallscreen_links">
               <li className="p__opensans">
-                <a href="#home" onClick={()=>setToggleMenu(false)}>Home</a>
+                <a href="#home" onClick={() => setToggleMenu(false)}>
+                  Home
+                </a>
               </li>
               <li className="p__opensans">
-                <a href="#about" onClick={()=>setToggleMenu(false)}>About</a>
+                <a href="#about" onClick={() => setToggleMenu(false)}>
+                  About
+                </a>
               </li>
               <li className="p__opensans">
-                <a href="#menu" onClick={()=>setToggleMenu(false)}>Menu</a>
+                <a href="#menu" onClick={() => setToggleMenu(false)}>
+                  Menu
+                </a>
               </li>
               <li className="p__opensans">
-                <a href="#awards" onClick={()=>setToggleMenu(false)}>Awards</a>
+                <a href="#awards" onClick={() => setToggleMenu(false)}>
+                  Awards
+                </a>
               </li>
               <li className="p__opensans">
-                <a href="#contact" onClick={()=>setToggleMenu(false)}>Contact</a>
+                <a href="#contact" onClick={() => setToggleMenu(false)}>
+                  Contact
+                </a>
               </li>
             </ul>
           </div>
